@@ -1,0 +1,43 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.Footer{
+    width: 100vw;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: linear-gradient(180deg, rgba(36, 36, 36, 0.9), rgb(36, 36, 36) 50%);
+}
+
+.infos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infos div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 45%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.credits{
+    font-size: small;
+    margin-left: 2vw;
+}
