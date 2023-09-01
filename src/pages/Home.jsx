@@ -1,11 +1,8 @@
 import React from 'react';
 
-import '../styles/App.css';
-import Navbar from './Navbar';
-import Footer from './Footer';
-import logo from '../images/logo.svg';
-
-
+import '../styles/Home.css';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function App() {
 

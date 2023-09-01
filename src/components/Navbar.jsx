@@ -2,6 +2,8 @@ import '../styles/Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
+import { Link } from 'react-router-dom';
+
 function Navbar(){
 
     let menuOpen = false
@@ -24,7 +26,7 @@ function Navbar(){
     return (
         <div className="Navbar">
             <ul className="menu">
-                <li>Opção do menu</li>
+                <li><Link to='/eventos'>Eventos</Link></li>
                 <li>Opção do menu</li>
                 <li>Opção do menu</li>
                 <li>Opção do menu</li>
