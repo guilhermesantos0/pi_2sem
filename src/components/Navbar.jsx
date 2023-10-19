@@ -1,7 +1,7 @@
-import '../styles/Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import "../styles/components/Navbar.css";
 
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 
 function Navbar(){
@@ -25,15 +25,27 @@ function Navbar(){
 
     return (
         <div className="Navbar">
+            <img src="https://placehold.co/400" alt="Usina Eco-Cultural" />
+            {/* <img src="../images/logo.png" alt="Usina Eco-Cultural" /> */}
             <ul className="menu">
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='/historia'>História</Link></li>
-                <li><Link to='/eventos'>Eventos</Link></li>
-                <li><Link to='/cursos'>Cursos</Link></li>
-                <li><Link to='/localizacao'>Localização</Link></li>
+                <li><Link to='/coletivo'>Coletivo</Link></li>
+                <li><Link to='/historia'>Historia</Link></li>
+                <li><Link to='/apoie'>Apoie</Link></li>
+                <li><Link to='/loja'>Loja</Link></li>
+                <div className="drop">
+                    <span>Mais &#9660;</span>
+                    <div className="drop_content">
+                        <li><Link to='/eventos'>Eventos</Link></li>
+                        <li><Link to='/noticias'>Notícias</Link></li>
+                        <li><Link to='/apoiadores'>Apoiadores</Link></li>
+                        <li><Link to='/localizacao'>Como chegar</Link></li>
+                        <li><Link to='/contato'>Fale conosco</Link></li>
+                    </div>
+                </div>
             </ul>
             <button onClick={toggleMenu} className="open_menu">
-                <FontAwesomeIcon icon={faBars} />
+                <FontAwesomeIcon className='icon' icon={faBars} />
                 <span className="selected_tab">Home</span>
             </button>
         </div>

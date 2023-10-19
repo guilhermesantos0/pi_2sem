@@ -1,0 +1,128 @@
+.Navbar{
+    width: 100vw;
+    height: 10vh;
+
+    background: #EA8356;
+
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+
+    padding-left: 4vw;
+    padding-right: 3vw;
+}
+
+.Navbar .menu{
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-size: 1.5rem;
+}
+
+.Navbar.open img{
+    width: 9vh;
+    height: 9vh;
+}
+
+.open_menu{
+    display: none;
+}
+
+li, span, .icon{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px){
+
+    .drop{
+        position: relative;
+        display: inline-block;
+    }
+    
+    .drop:hover .drop_content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-evenly;
+    }
+
+    .drop_content{
+        min-width: 15vw;
+        height: 30vh;
+        right: 0;
+        padding-top: 5vh;
+    
+        display: none;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 767px){
+    
+    .Navbar.open{
+        height: 100vh;
+    }
+
+
+    .Navbar .menu{
+        display: none;
+    }
+
+    .Navbar .menu.open{
+        width: 100%;
+        height: 90vh;
+        margin-top: 5vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        gap: 4vh;
+    }
+
+    .Navbar .menu.open li{
+        width: 100%;
+    }
+
+    .Navbar.open .drop span{
+        display: none;
+    }
+
+    .Navbar.open .drop_content{
+        width: 100%;
+        padding-top: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        gap: 4vh;
+    }
+
+    .open_menu{
+        width: 100%;
+        height: 10vh;
+
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: right;
+
+        font-size: xx-large;
+
+        background: transparent;
+        border: 0;
+    }
+
+    .selected_tab{
+        margin-right: 2vw;
+    }
+
+}

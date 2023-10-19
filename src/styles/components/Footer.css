@@ -12,6 +12,7 @@ body{
     justify-content: space-between;
 
     background: linear-gradient(180deg, rgba(36, 36, 36, 0.9), rgb(36, 36, 36) 50%);
+    color: aliceblue;
 }
 
 .infos{
