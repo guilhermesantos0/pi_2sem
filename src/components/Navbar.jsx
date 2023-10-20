@@ -4,7 +4,7 @@ import "../styles/components/Navbar.css";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 
-function Navbar(){
+function Navbar(props){
 
     let menuOpen = false
     
@@ -46,7 +46,7 @@ function Navbar(){
             </ul>
             <button onClick={toggleMenu} className="open_menu">
                 <FontAwesomeIcon className='icon' icon={faBars} />
-                <span className="selected_tab">Home</span>
+                <span className="selected_tab">{props.tab}</span>
             </button>
         </div>
     )

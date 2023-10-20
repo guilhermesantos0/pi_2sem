@@ -11,8 +11,11 @@ body{
     flex-direction: column;
     justify-content: space-between;
 
-    background: linear-gradient(180deg, rgba(36, 36, 36, 0.9), rgb(36, 36, 36) 50%);
+    background: #EA8356;
     color: aliceblue;
+
+    position: absolute;
+    bottom: 0;
 }
 
 .infos{

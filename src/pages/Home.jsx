@@ -13,7 +13,8 @@ function Home() {
 
   return (
     <div className="Home">
-      <Navbar />
+      <Navbar tab="Home" />
+      <Footer />
     </div>
   );
 }
