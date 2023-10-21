@@ -30,7 +30,7 @@
 
     border-radius: 10px;
 
-    transition: transform .7s ease-in-out;
+    transition: all .7s ease-in-out;
 }
 
 .Home .petition:hover{
