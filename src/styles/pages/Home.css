@@ -98,3 +98,38 @@
 .Home .social_politics a{
     text-align: right;
 }
+
+@media screen and (max-width: 767px) {
+    .Home .banner{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .Home .petition{
+
+        position: initial;
+        width: 60vw;
+        margin-bottom: 2vh;
+
+        font-size: 2rem;
+    }
+
+    .Home .pubarea{
+        height: 60vh;
+    }
+
+    .Home .pubarea > div{
+        width: 90vw;
+    }
+
+    .Home .pub_text{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .Home .pub_text{
+        font-size: .8rem;
+    }
+}

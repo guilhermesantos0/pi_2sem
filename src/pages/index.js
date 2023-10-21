@@ -1,0 +1,10 @@
+export {default as Apoiadores} from './Apoiadores';
+export {default as Apoie} from './Apoie';
+export {default as Coletivo} from './Coletivo';
+export {default as Contato} from './Contato';
+export {default as Eventos} from './Eventos';
+export {default as Historia} from './Historia';
+export {default as Home} from './Home';
+export {default as Localizacao} from './Localizacao';
+export {default as Loja} from './Loja'
+export {default as Noticias} from './Noticias'

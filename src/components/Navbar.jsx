@@ -32,7 +32,7 @@ function Navbar(props){
             <ul className="menu">
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/coletivo'>Coletivo</Link></li>
-                <li><Link to='/historia'>Historia</Link></li>
+                <li><Link to='/historia'>História</Link></li>
                 <li><Link to='/apoie'>Apoie</Link></li>
                 <li><Link to='/loja'>Loja</Link></li>
                 <div className="drop">

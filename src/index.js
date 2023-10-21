@@ -5,8 +5,18 @@ import reportWebVitals from './reportWebVitals';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import Home from './pages/Home';
-import Noticias from './pages/Noticias';
+import { 
+  Apoiadores, 
+  Apoie, 
+  Coletivo, 
+  Contato, 
+  Eventos, 
+  Historia, 
+  Home, 
+  Localizacao, 
+  Loja, 
+  Noticias 
+} from './pages';
 
 const router = createBrowserRouter([
   {
@@ -14,7 +24,39 @@ const router = createBrowserRouter([
     element: <Home />
   },
   {
-    path: "/noticias",
+    path: "/apoiadores",
+    element: <Apoiadores />
+  },
+  {
+    path: "/apoie",
+    element: <Apoie />
+  },
+  {
+    path: "/coletivo",
+    element: <Coletivo />
+  },
+  {
+    path: '/contato',
+    element: <Contato />
+  },
+  {
+    path: '/eventos',
+    element: <Eventos />
+  },
+  {
+    path: '/historia',
+    element: <Historia />
+  },
+  {
+    path: '/localizacao',
+    element: <Localizacao />
+  },
+  {
+    path: '/loja',
+    element: <Loja />
+  },
+  {
+    path: '/noticias',
     element: <Noticias />
   }
 ])

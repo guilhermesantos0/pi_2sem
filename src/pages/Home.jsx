@@ -17,9 +17,11 @@ function Home() {
   return (
     <div className="Home">
       <Navbar tab="Home" />
+      
         <div className="banner">
           <a className='petition' href="https://secure.avaaz.org/community_petitions/po/prefeitura_municipal_de_sao_paulo_eu_apoio_incinerador_vergueiro_devera_ser_um_espaco_de_conscientizacao_ambiental_e_vida/">Assine a petição</a>
         </div>
+
         <div className="pubarea">
           <div className="sustentability">
 

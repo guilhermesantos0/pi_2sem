@@ -100,8 +100,8 @@ li, span, .icon{
     }
 
     .Navbar .menu.open{
-        width: 100%;
-        height: 90vh;
+        width: 100vw;
+        height: 100vh;
         margin-top: 5vh;
 
         display: flex;
@@ -113,7 +113,8 @@ li, span, .icon{
     }
 
     .Navbar .menu.open li{
-        width: 100%;
+        width: 100vw;
+
     }
 
     .Navbar.open .drop span{
@@ -133,6 +134,7 @@ li, span, .icon{
 
     .open_menu{
         width: 100%;
+
         height: 10vh;
 
         display: flex;
@@ -144,6 +146,9 @@ li, span, .icon{
 
         background: transparent;
         border: 0;
+
+        position: absolute;
+        right: 2vh;
     }
 
     .selected_tab{
