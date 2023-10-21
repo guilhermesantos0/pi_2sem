@@ -4,6 +4,8 @@ import "../styles/components/Navbar.css";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 
+import logo from "../images/logo.png";
+
 function Navbar(props){
 
     let menuOpen = false
@@ -25,8 +27,8 @@ function Navbar(props){
 
     return (
         <div className="Navbar">
-            <img src="https://placehold.co/400" alt="Usina Eco-Cultural" />
-            {/* <img src="../images/logo.png" alt="Usina Eco-Cultural" /> */}
+            {/* <img src="https://placehold.co/400" alt="Usina Eco-Cultural" /> */}
+            <img src={logo} alt="Usina Eco-Cultural" />
             <ul className="menu">
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/coletivo'>Coletivo</Link></li>
