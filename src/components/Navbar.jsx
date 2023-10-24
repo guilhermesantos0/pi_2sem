@@ -4,7 +4,7 @@ import "../styles/components/Navbar.css";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 
-import logo from "../images/logo.png";
+import logo from "../images/logo_black.png";
 
 function Navbar(props){
 

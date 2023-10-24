@@ -2,7 +2,7 @@
     width: 100vw;
     height: 10vh;
 
-    background: #EA8356;
+    background: var(--header-color);
 
     display: flex;
     justify-content: space-between;
@@ -14,6 +14,8 @@
     padding-right: 3vw;
 
     z-index: 110;
+
+    min-height: 10vh;
 }
 
 .Navbar .menu{
@@ -37,7 +39,7 @@
 }
 
 li, span, .icon{
-    color: aliceblue;
+    color: black;
     cursor: pointer;
 }
 
@@ -92,6 +94,7 @@ li, span, .icon{
     
     .Navbar.open{
         height: 100vh;
+        overflow: hidden;
     }
 
 

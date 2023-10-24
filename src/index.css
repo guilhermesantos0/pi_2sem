@@ -43,3 +43,13 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+:root{
+  --theme-color1: #EA8356;
+  --theme-color2: #ECECEC;
+  --theme-color3: #69A625;
+  --theme-color4: #3A90C3;
+
+  --header-color: var(--theme-color2);
+  --footer-color: var(--theme-color2);
+}

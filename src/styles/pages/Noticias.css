@@ -67,11 +67,11 @@
 }
 
 @media screen and (max-width: 767px) {
-    .Noticias .card-noticias{
+    /* .Noticias .card-noticias{
         min-width: 96vw;
         min-height: 96vw;
         width: 95vw;
-    }
+    } */
 
     .Noticias .texto{
         padding-top: 55%;
