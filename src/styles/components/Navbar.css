@@ -70,7 +70,7 @@ li, span, .icon{
     
         display: none;
         position: absolute;
-        background: #EA8356;
+        background: var(--header-color);
 
         z-index: 20;
     }
@@ -95,9 +95,12 @@ li, span, .icon{
     .Navbar.open{
         height: 100vh;
         overflow: hidden;
+
+        position: absolute;
+        z-index: 999999;
     }
-
-
+    
+    
     .Navbar .menu{
         display: none;
     }
