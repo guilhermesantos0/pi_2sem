@@ -19,7 +19,9 @@ function Home() {
       <Navbar tab="Home" />
       
         <div className="banner">
-          <a className='petition' href="https://secure.avaaz.org/community_petitions/po/prefeitura_municipal_de_sao_paulo_eu_apoio_incinerador_vergueiro_devera_ser_um_espaco_de_conscientizacao_ambiental_e_vida/">Assine a petição</a>
+          <div className="overlay"></div>
+          <p className='petition_text'>Assine nossa petição para que possamos transformar o espaço do antigo Incinerador Vergueiro em um centro cultural!</p>
+          <a className='petition' target='_blank' href="https://secure.avaaz.org/community_petitions/po/prefeitura_municipal_de_sao_paulo_eu_apoio_incinerador_vergueiro_devera_ser_um_espaco_de_conscientizacao_ambiental_e_vida/">Assine a petição</a>
         </div>
 
         <div className="pubarea">

@@ -16,7 +16,7 @@ function Footer(){
                     </ul>
                 </div>
                 <div className="_infos">
-                    <h2>Outras Informações</h2>
+                    <h2>Localização</h2>
                     <ul className="other_infos">
                         <li><a href="https://goo.gl/maps/uzsoRxaoo3k9JUSeA" target="_blank">R. Breno Ferraz do Amaral, 415 - Cursino, São Paulo - SP, 04124-020</a></li>
                     </ul>
