@@ -5,6 +5,7 @@ function Historia() {
     return(
         <div className="Historia">
             <Navbar tab="História" />
+            <h1>História</h1>
             <Footer />
         </div>
     )

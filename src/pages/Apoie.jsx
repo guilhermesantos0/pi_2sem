@@ -5,6 +5,7 @@ function Apoie () {
     return(
         <div className="Apoie">
             <Navbar tab="Apoie" />
+            <h1>Apoie</h1>
             <Footer />
         </div>
     )

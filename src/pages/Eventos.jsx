@@ -5,6 +5,7 @@ function Eventos () {
     return(
         <div className="Eventos">
             <Navbar tab="Eventos" />
+            <h1>Eventos</h1>
             <Footer />
         </div>
     )

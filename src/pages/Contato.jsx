@@ -5,6 +5,7 @@ function Contato () {
     return(
         <div className="Contato">
             <Navbar tab="Contato" />
+            <h1>Fale conosco</h1>
             <Footer />
         </div>
     )

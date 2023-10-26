@@ -31,6 +31,9 @@
     border-radius: 10px;
 
     transition: all .7s ease-in-out;
+
+    font-size: 1.5rem;
+    text-decoration: none;
 }
 
 .Home .petition:hover{
@@ -60,7 +63,7 @@
 
 .Home .pubarea > div .pub_content_area{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -74,6 +77,7 @@
 
 .Home .pub_text{
     width: 70%;
+    margin-top: 2vh;
 }
 
 .Home .sustentability .pub_text{
@@ -86,8 +90,9 @@
 }
 
 .Home .pub_image_area a{
-    font-size: xx-small;
+    font-size: .5rem;
     color: black;
+
 }
 
 .Home .pubarea img{
@@ -95,7 +100,7 @@
     height: 14vh;
 }
 
-.Home .social_politics a{
+.Home .social_politics .pub_image_area{
     text-align: right;
 }
 

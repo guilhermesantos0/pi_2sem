@@ -5,6 +5,7 @@ function Localizacao () {
     return(
         <div className="Localizacao">
             <Navbar tab="Localização" />
+                <h1>Como chegar</h1>
             <Footer />
         </div>
     )

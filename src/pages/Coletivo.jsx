@@ -5,6 +5,7 @@ function Coletivo() {
     return(
         <div className="Coletivo">
             <Navbar tab="Coletivo" />
+            <h1>Coletivo    </h1>
             <Footer />
         </div>
     )
