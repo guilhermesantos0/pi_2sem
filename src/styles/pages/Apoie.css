@@ -1,0 +1,22 @@
+.Apoie .word{
+    background-color: var(--theme-color3);
+    color: white;
+    padding-left: 2vw;
+    padding: 3vw;
+    width: 100vw;
+}
+
+.Apoie .img{
+    display: flex;
+    justify-content: center;
+}
+
+.Apoie .p1{
+    font-size: 36px; 
+    text-align: center;
+}
+
+.Apoie .p2{
+    font-size: 30px; 
+    text-align: center;
+}

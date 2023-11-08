@@ -13,7 +13,7 @@
     padding-left: 4vw;
     padding-right: 3vw;
 
-    z-index: 110;
+    z-index: 1000;
 
     min-height: 10vh;
 }
