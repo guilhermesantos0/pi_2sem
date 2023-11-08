@@ -1,0 +1,42 @@
+.Contato .color{
+    background-color: #69A625;
+}
+.Contato .word{
+    color: white;
+    margin-left: 40px;
+    padding: 50px;
+}
+.Contato .body{
+    text-align: center;
+}
+.Contato .image{
+    font-size: 55px;
+    margin-top: 75px;
+}
+.Contato .imagedesc{
+    background-image:url("../../images/contato/fale-conosco3.jpg");
+    font-size: 55px;
+    padding-top: 675px;
+    width: 1042px;
+    margin: 0 auto;
+}
+.Contato .word3{
+    font-size: 45px;
+    margin-top: 75px;
+}
+.Contato .box{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contato .col{
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 0 40px;
+    font-size: 25px;
+}
+.Contato .colunas{
+    display: flex;
+    justify-content: center;;
+}
