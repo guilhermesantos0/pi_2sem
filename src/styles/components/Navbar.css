@@ -106,7 +106,6 @@ li, span, .icon{
     
     .Navbar.open{
         height: 100vh;
-        overflow: hidden;
 
         position: absolute;
         z-index: 999999;
@@ -127,7 +126,7 @@ li, span, .icon{
         justify-content: center;
         align-items: flex-start;
 
-        gap: 3vh;
+        gap: 2vh;
 
         margin-left: -5vh;
     }
