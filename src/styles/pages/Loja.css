@@ -33,16 +33,6 @@
     transition: box-shadow 0.4s;
     text-align: center;
 }
-@media screen and (max-width: 768px) {
-    .LojaContent .produtos {
-        display: block;
-        width: auto;
-    }
-
-    .LojaContent .body-prod{
-        flex-direction: column;
-    }
-  }
 .LojaContent .prod:hover {
     box-shadow: 1vh 1vh 1vh rgba(0, 0, 0, 0.2);
   }
@@ -77,6 +67,17 @@
     list-style: none;
 }
 
-img{
+.LojaContent img{
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .LojaContent .produtos {
+        display: block;
+        width: auto;
+    }
+
+    .LojaContent .body-prod{
+        flex-direction: column;
+    }
+  }

@@ -1,0 +1,92 @@
+.HistoriaContent .header{
+    text-align: left;
+    padding-left: 5vw;
+    width: 100vw;
+    height: 10vh;
+    color: aliceblue;
+    background: var(--theme-color3);
+
+    display: flex;
+    align-items: center;
+}
+
+.HistoriaContent .header p{
+    font-size: 1.5rem;
+
+}
+
+.HistoriaContent .conteudo p{
+    padding: 50px;
+}
+
+.HistoriaContent .conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HistoriaContent .origem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.HistoriaContent .origem h2{
+    padding-bottom: 50px;
+}
+.HistoriaContent .origem_conteudo{
+    max-width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.5);
+}
+.HistoriaContent .origem h2{
+    padding-top: 50px;
+    text-align: center;
+}
+.HistoriaContent .protesto{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+}
+.HistoriaContent .protesto h2{
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+.HistoriaContent .protesto_conteudo{
+    max-width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.5);
+}
+.HistoriaContent .meses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.HistoriaContent .meses h2{
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+.HistoriaContent .meses_conteudo{
+    max-width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.5);
+}
+.HistoriaContent .encerramento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.HistoriaContent .encerramento h2{
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+.HistoriaContent .encerramento_conteudo{
+    max-width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.5);
+}

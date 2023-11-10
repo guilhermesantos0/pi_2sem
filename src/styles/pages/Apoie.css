@@ -1,11 +1,3 @@
-.ApoieContent .word{
-    background-color: var(--theme-color3);
-    color: white;
-    padding-left: 2vw;
-    padding: 3vw;
-    width: 100vw;
-}
-
 .ApoieContent .img{
     display: flex;
     justify-content: center;

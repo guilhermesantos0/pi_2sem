@@ -1,0 +1,13 @@
+.Header{
+    width: 100vw;
+    height: 15vh;
+    
+    display: flex;
+    align-items: center;
+
+    padding-left: 4vw;
+
+    font-size: 2rem;
+
+    color: aliceblue;
+}

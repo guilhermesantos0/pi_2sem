@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 import "../styles/pages/Apoie.css"
 
@@ -10,9 +11,7 @@ function Apoie () {
         <div className="Apoie">
             <Navbar tab="Apoie" />
                 <div className="ApoieContent">
-                    <div className="header-page">
-                        <h1 className="word"><b>APOIE</b></h1>
-                    </div>
+                    <Header color="var(--theme-color3)">APOIE</Header>
 
                     <br/>
 
