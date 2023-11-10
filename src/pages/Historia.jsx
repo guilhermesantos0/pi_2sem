@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 import "../styles/pages/Historia.css"
 
@@ -8,9 +9,7 @@ function Historia() {
         <div className="Historia">
             <Navbar tab="História" />
             <div className="HistoriaContent">
-                <div class="header">
-                    <p>HISTORIA</p>
-                </div>
+                <Header color="var(--theme-color3)">HISTÓRIA</Header>
                 <div class="conteudo">
                     <div class="origem">
                         <h2>Origem</h2>

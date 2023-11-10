@@ -1,14 +1,15 @@
-import "../styles/pages/Noticias.css";
-
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
+
+import "../styles/pages/Noticias.css";
 
 function Noticias() {
     return (
         <div className="Noticias">
             <Navbar tab="Noticias" />
             <div className="NoticiasContent">
-                <h1 className="noticias_title">Noticias</h1>
+                <Header color="var(--theme-color1)">NOTÍCIAS</Header>
                 <div className="noticias">
                     <div className="card-noticias foto-1">
                         <div className="noticia-1 texto">

@@ -1,11 +1,12 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 function Localizacao () {
     return(
         <div className="Localizacao">
             <Navbar tab="Localização" />
-                <h1>Como chegar</h1>
+                <Header color="var(--theme-color1)">COMO CHEGAR</Header>
             <Footer />
         </div>
     )

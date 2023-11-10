@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 import "../styles/pages/Eventos.css";
 
@@ -8,9 +9,7 @@ function Eventos () {
         <div className="Eventos">
             <Navbar tab="Eventos" />
                 <div className="EventosContent">
-                    <div className="header-page">
-                        <h1 className="word"><b>EVENTOS</b></h1>
-                    </div>
+                    <Header color="var(--theme-color3)">EVENTOS</Header>
 
                     <div className="eventos">
                         <div className="card-eventos foto-1">

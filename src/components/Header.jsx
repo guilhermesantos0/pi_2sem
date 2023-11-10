@@ -5,7 +5,7 @@ import "../styles/components/Header.css"
 function Header({ children, color }) {
     return(
         <div className="Header" style={{backgroundColor: color}}>
-            {children}
+            <b>{children}</b>
         </div>
     )
 }

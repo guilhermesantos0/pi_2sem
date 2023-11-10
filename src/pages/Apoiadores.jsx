@@ -6,7 +6,7 @@ function Apoiadores () {
     return (
         <div className="Apoiadores">
             <Navbar tab="Apoiadores" />
-            <Header color="var(--theme-color4)">Apoiadores</Header>
+            <Header color="var(--theme-color4)">APOIADORES</Header>
             <Footer />
         </div>
     )

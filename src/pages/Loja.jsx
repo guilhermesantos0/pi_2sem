@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 import "../styles/pages/Loja.css"
 
@@ -8,9 +9,7 @@ function Loja () {
         <div className="Loja">
             <Navbar tab="Loja" />
                 <div className="LojaContent">
-                    <div className="header-page">
-                        <h1 className="word"><b>LOJA</b></h1>
-                    </div>
+                    <Header color="var(--theme-color1)">LOJA</Header>
                     <div className="body-prod">
                         <div className="categorias">
                             <div><h4>Categorias dos Produtos</h4></div>

@@ -25,18 +25,19 @@
     justify-content: center;
     align-items: center;
 }
+
 .HistoriaContent .origem{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
 }
 .HistoriaContent .origem h2{
     padding-bottom: 50px;
 }
 .HistoriaContent .origem_conteudo{
-    max-width: 50%;
-    margin-left: 25%;
+    width: 50%;
+    /* margin-left: 25%; */
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(0,0,0,.5);
 }
@@ -44,49 +45,62 @@
     padding-top: 50px;
     text-align: center;
 }
+
 .HistoriaContent .protesto{
     display: flex;  
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .HistoriaContent .protesto h2{
     padding: 50px 0 50px 0;
     text-align: center;
 }
 .HistoriaContent .protesto_conteudo{
-    max-width: 50%;
-    margin-left: 25%;
+    width: 50%;
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(0,0,0,.5);
 }
+
 .HistoriaContent .meses{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .HistoriaContent .meses h2{
     padding: 50px 0 50px 0;
     text-align: center;
 }
 .HistoriaContent .meses_conteudo{
-    max-width: 50%;
-    margin-left: 25%;
+    width: 50%;
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(0,0,0,.5);
 }
+
 .HistoriaContent .encerramento{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-bottom: 50px;
+    align-items: center;
 }
 .HistoriaContent .encerramento h2{
     padding: 50px 0 50px 0;
     text-align: center;
 }
 .HistoriaContent .encerramento_conteudo{
-    max-width: 50%;
-    margin-left: 25%;
+    width: 50%;
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(0,0,0,.5);
+}
+
+@media screen and (max-width: 767px) {
+    .HistoriaContent .conteudo > div {
+        width: 90vw;
+    }
+
+    .HistoriaContent .conteudo > div >div{
+        width: 100%;
+    }
 }

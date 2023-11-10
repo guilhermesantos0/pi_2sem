@@ -1,17 +1,15 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 import "../styles/pages/Contato.css"
-import image from "../images/contato/fale-conosco3.jpg"
 
 function Contato () {
     return(
         <div className="Contato">
             <Navbar tab="Contato" />
                 <div className="ContatoContent">
-                    <div className="header-page">
-                        <h1 className="word">FALE CONOSCO</h1>
-                    </div>
+                    <Header color="var(--theme-color3)">FALE CONOSCO</Header>
                     
                     <div className="body">
                         <div className="image">
