@@ -73,7 +73,7 @@ li, span, .icon{
 
     .drop_content{
         min-width: 15vw;
-        height: 30vh;
+        height: 30vh !important;
         right: 0;
         padding-top: 5vh;
     

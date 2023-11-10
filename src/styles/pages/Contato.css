@@ -1,11 +1,11 @@
-.Contato .word{
+.ContatoContent .word{
     background-color: var(--theme-color3);
     color: white;
     padding-left: 2vw;
     padding: 3vw;
     width: 100vw;
 }
-.Contato .body{
+.ContatoContent .body{
     width: 100vw;
     
     display: flex;
@@ -15,7 +15,7 @@
 
     text-align: center;
 }
-.Contato .image{
+.ContatoContent .image{
     position: relative;
     font-size: 1rem;
     margin-top: 2vh;
@@ -27,7 +27,7 @@
     background-size: cover;
 }
 
-.Contato .image p{
+.ContatoContent .image p{
     position: absolute;
     bottom: 2vh;
     width: 100%;
@@ -38,7 +38,7 @@
     color: aliceblue;
 }
 
-.Contato .imagedesc{
+.ContatoContent .imagedesc{
     background-image:url("../../images/contato/fale-conosco3.jpg");
     font-size: 55px;
     padding-top: 675px;
@@ -46,23 +46,23 @@
     background-size: cover;
     margin: 0 auto;
 }
-.Contato .word3{
+.ContatoContent .word3{
     font-size: 45px;
     margin-top: 75px;
 }
-.Contato .box{
+.ContatoContent .box{
     text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.Contato .col{
+.ContatoContent .col{
     border: 1px solid;
     border-radius: 15px;
     margin: 0 40px;
     font-size: 25px;
 }
-.Contato .colunas{
+.ContatoContent .colunas{
     margin-top: 2vh;
     display: flex;
     gap: 2vw;
@@ -70,7 +70,7 @@
 }
 
 @media screen and (max-width: 767px){
-    .Contato .image{
+    .ContatoContent .image{
         background-size: contain;
         width: 90vw;
         height: 48vh;
@@ -78,7 +78,7 @@
         background-repeat: no-repeat;
     }
 
-    .Contato .colunas{
+    .ContatoContent .colunas{
         flex-direction: column;
     }
 }

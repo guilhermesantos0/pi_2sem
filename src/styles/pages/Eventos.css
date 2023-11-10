@@ -1,11 +1,11 @@
-.Eventos .word{
+.EventosContent .word{
     background-color: var(--theme-color3);
     color: white;
     padding-left: 2vw;
     padding: 3vw;
     width: 100vw;
 }
-.Eventos .eventos{
+.EventosContent .eventos{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
     gap: 20px;
     margin-top: 2vh;
 }
-.Eventos .card-eventos{
+.EventosContent .card-eventos{
     box-shadow: 3px 3px 10px #333;
     border-radius: 15px;
     text-align: center;
@@ -26,34 +26,34 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.Eventos .foto-1{
+.EventosContent .foto-1{
     background-image: url("../../images/eventos/img_palestra.jpg");
     background-repeat: no-repeat;
     background-size: 400px 200px;
 }
-.Eventos .foto-2{
+.EventosContent .foto-2{
     background-image: url("../../images/eventos/img_Dom.jpg");
     background-repeat: no-repeat;
     background-size: 400px 200px;
 }
-.Eventos .foto-3{
+.EventosContent .foto-3{
     background-image: url("../../images/eventos/img_ave.jpg");
     background-repeat: no-repeat;
     background-size: 400px 200px;
 }
-.Eventos .evento-1{
+.EventosContent .evento-1{
     padding-top: 50%;
 }
-.Eventos .evento-2{
+.EventosContent .evento-2{
     padding-top: 50%;
 }
-.Eventos .evento-3{
+.EventosContent .evento-3{
     padding-top: 50%;
 }
-.Eventos .texto{
+.EventosContent .texto{
     margin: 10px;
 }
-.Eventos .btn a{
+.EventosContent .btn a{
     text-decoration: none;
     background-color: rgb(112, 112, 235);
     padding: 1em;
@@ -61,6 +61,6 @@
     color: white;
 
 }
-.Eventos .btn{
+.EventosContent .btn{
     margin-bottom: 10%;
 }

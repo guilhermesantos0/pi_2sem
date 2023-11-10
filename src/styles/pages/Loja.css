@@ -1,32 +1,32 @@
-.Loja .word{
+.LojaContent .word{
     background-color: var(--theme-color1);
     color: white;
     padding-left: 2vw;
     padding: 3vw;
     width: 100vw;
 }
-.Loja a{
+.LojaContent a{
     text-decoration: none;
     color: black;
 }
-.Loja li{
+.LojaContent li{
     margin-top: 18px;
 }
-.Loja .produtos{
+.LojaContent .produtos{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-.Loja .body-prod{
+.LojaContent .body-prod{
     overflow: auto;
     display: flex;
 }
-.Loja .categorias{
+.LojaContent .categorias{
     font-size: 20px;
     padding: 1vh;
     border-right: 1px black solid;
 }
-.Loja .prod{
+.LojaContent .prod{
     margin: 9vh;
     border: 1px solid rgb(177, 175, 175);
     border-radius: 1vh;
@@ -34,19 +34,19 @@
     text-align: center;
 }
 @media screen and (max-width: 768px) {
-    .Loja .produtos {
+    .LojaContent .produtos {
         display: block;
         width: auto;
     }
 
-    .Loja .body-prod{
+    .LojaContent .body-prod{
         flex-direction: column;
     }
   }
-.Loja .prod:hover {
+.LojaContent .prod:hover {
     box-shadow: 1vh 1vh 1vh rgba(0, 0, 0, 0.2);
   }
-.Loja .but-comprar{
+.LojaContent .but-comprar{
     color:white;
     background-color:#EA8356;
     border-radius: 5px;
@@ -56,24 +56,24 @@
     border: 0;
     cursor: pointer;
 }
-.Loja .price,.Loja .desc{
+.LojaContent .price,.LojaContent .desc{
     padding: 1vh;
 }
-.Loja .price{
+.LojaContent .price{
     font-size: 2.5vh;
     /* Color para escolher */
     /* color: black;  */ 
     /* color: #EA8356; */
 }
-.Loja .desc{
+.LojaContent .desc{
     font-size: 2vh;
 }
 
-.Loja svg{
+.LojaContent svg{
     fill: #fff
 }
 
-.Loja .list{
+.LojaContent .list{
     list-style: none;
 }
 

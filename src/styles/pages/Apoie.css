@@ -1,4 +1,4 @@
-.Apoie .word{
+.ApoieContent .word{
     background-color: var(--theme-color3);
     color: white;
     padding-left: 2vw;
@@ -6,17 +6,17 @@
     width: 100vw;
 }
 
-.Apoie .img{
+.ApoieContent .img{
     display: flex;
     justify-content: center;
 }
 
-.Apoie .p1{
+.ApoieContent .p1{
     font-size: 36px; 
     text-align: center;
 }
 
-.Apoie .p2{
+.ApoieContent .p2{
     font-size: 30px; 
     text-align: center;
 }
