@@ -16,6 +16,8 @@
     z-index: 1000;
 
     min-height: 10vh;
+
+    user-select: none;
 }
 
 .Navbar .menu{
