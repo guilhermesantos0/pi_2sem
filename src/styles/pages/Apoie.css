@@ -1,3 +1,16 @@
+.Apoie{
+    height: 100vh;
+}
+
+.page_content{
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .ApoieContent .img{
     display: flex;
     justify-content: center;
@@ -11,4 +24,9 @@
 .ApoieContent .p2{
     font-size: 30px; 
     text-align: center;
+}
+
+Footer{
+    position: absolute;
+    bottom: 0;
 }

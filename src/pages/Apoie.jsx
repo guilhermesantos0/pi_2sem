@@ -15,19 +15,21 @@ function Apoie () {
                 <div className="ApoieContent">
                     <Header color="var(--theme-color3)">APOIE</Header>
 
-                    <br/>
+                    <div className="page_content">
+                        <br/>
 
-                    <p className="p1">Apoie o projeto da Usina Eco Cultural e contribua para a propagação da cultura.</p>
+                        <p className="p1">Apoie o projeto da Usina Eco Cultural e contribua para a propagação da cultura.</p>
 
-                    <br/>
+                        <br/>
 
-                    <div className="img">  
-                        <img src={image} width="50%"/>
+                        <div className="img">  
+                            <img src={image} width="50%"/>
+                        </div>
+
+                        <br/>
+
+                        <p className="p2">Toda e qualquer tipo de doação será muito bem-vinda, para mais informações, entre em contato através da aba <Link to="/contato">Fale Conosco</Link>.</p>
                     </div>
-
-                    <br/>
-
-                    <p className="p2">Toda e qualquer tipo de doação será muito bem-vinda, para mais informações, entre em contato através da aba <Link to="/contato">Fale Conosco</Link>.</p>
 
                 </div>
             <Footer />
