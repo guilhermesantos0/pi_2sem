@@ -15,9 +15,6 @@ function Contato () {
                         <div className="image">
                             <p><b>Estamos aqui para você</b></p>
                         </div>
-                        {/* <div className="image">
-                            <p className="imagedesc"><b>Estamos aqui para você</b></p>
-                        </div> */}
                         <div className="contatos">
                             <div className="header">
                                 <p className="word3"><b>Canais de Contato:</b></p>

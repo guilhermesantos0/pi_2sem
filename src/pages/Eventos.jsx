@@ -19,7 +19,6 @@ function Eventos () {
                                 <h2>15/11/2023 - 19:30</h2>
                                 <br/>
                                 <p>Descubra como a reciclagem pode transformar nosso mundo moderno em um lugar mais sustentável e saudável. Nossa palestra sobre a importância da reciclagem irá revelar os segredos para reduzir o desperdício, preservar recursos valiosos e proteger o meio ambiente, capacitando você a ser um agente de mudança em nossa jornada para um futuro mais verde. Não perca a oportunidade de se envolver e fazer a diferença.</p>
-                                
                             </div>
                             
                         </div>
