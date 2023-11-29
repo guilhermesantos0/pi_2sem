@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+.LocalizacaoContent .font-chegar{
+    font-family: 'Gabarito', cursive;
+    color: white;
+    margin-left: 140px;
+    font-style: italic;
+    padding: 35px;
+}
+.LocalizacaoContent .chegar{
+    background-color: #3A90C3;
+}
+.LocalizacaoContent .endereco{
+    margin-top: 15px;
+    padding: 45px;
+}
+.LocalizacaoContent .font-loc{
+    font-family: 'Gabarito', cursive;
+    color: white;
+    padding: 10px;
+    font-size: 55px;
+}
+.LocalizacaoContent .maps{
+    padding: 75px;
+    background-image: url("../../images/localizacao/usina-back.jpg");
+}
+.LocalizacaoContent .rotas{
+    padding: 70px;
+    margin-left: 205px;
+}
+.LocalizacaoContent .title-rotas{
+    font-size: large;
+}

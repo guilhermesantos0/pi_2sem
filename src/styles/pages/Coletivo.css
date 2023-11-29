@@ -1,16 +1,10 @@
-
-.ColetivoContent .header{
-    width: 100%;
-    background-color: orange;
-    color: white;
-}
-.ColetivoContent .header h1{
-    padding: 50px;
-}
 .ColetivoContent .conteudo{
     width: 90%;
     margin-left: 5%;
     margin-bottom: 5%;
+}
+.ColetivoContent .conteudo:nth-child(1){
+    margin-top: 30px;
 }
 .ColetivoContent img{
     width: 170px;
@@ -20,13 +14,21 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.ColetivoContent .info1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     box-shadow: 0 0 10px black;
     border-radius: 20px;
     overflow: hidden;
 }
 .ColetivoContent .info_tam{
     height: 150px;
-    
 }
 .ColetivoContent .texto_informativo{
     display: flex;
@@ -45,7 +47,7 @@
     border-radius: 20px 0 0 20px;
 }
 .ColetivoContent h2{
-    padding: 30px;
+    padding: 0 30px 30px;
 }
 .ColetivoContent h3{
     padding: 10px;

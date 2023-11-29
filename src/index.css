@@ -53,3 +53,7 @@ code {
   --header-color: var(--theme-color2);
   --footer-color: var(--theme-color2);
 }
+
+body{
+  height: 100%;
+}
