@@ -32,7 +32,6 @@ function Home() {
             <div className="pub_content_area">
               <div className="pub_image_area">
                 <img src={sustentability} alt="" />
-                <a href="http://www.freepik.com">Designed by Freepik</a>
               </div>
               <div className='pub_text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos autem, natus maiores velit repellendus eum, quae commodi doloribus nulla ea error qui reprehenderit iusto incidunt enim corporis! Tempora, delectus nesciunt!</div>
             </div>
@@ -46,7 +45,6 @@ function Home() {
             <div className="pub_content_area">
               <div className="pub_image_area">
                 <img src={socialPolitics} alt="" />
-                <a href="http://www.freepik.com">Designed by Freepik</a>
               </div>
               <div className='pub_text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos autem, natus maiores velit repellendus eum, quae commodi doloribus nulla ea error qui reprehenderit iusto incidunt enim corporis! Tempora, delectus nesciunt!</div>
             </div>

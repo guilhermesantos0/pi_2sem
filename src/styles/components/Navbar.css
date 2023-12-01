@@ -121,7 +121,7 @@ li, span, .icon{
     .Navbar .menu.open{
         width: 100vw;
         height: 100vh;
-        margin-top: 5vh;
+        margin-top: 7vh;
 
         display: flex;
         flex-direction: column;
@@ -155,7 +155,6 @@ li, span, .icon{
 
     .open_menu{
         width: 100%;
-
         height: 10vh;
 
         display: flex;
@@ -170,6 +169,8 @@ li, span, .icon{
 
         position: absolute;
         right: 2vh;
+
+        outline: none;
     }
 
     .selected_tab{
