@@ -33,7 +33,7 @@ function Home() {
               <div className="pub_image_area">
                 <img src={sustentability} alt="" />
               </div>
-              <div className='pub_text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos autem, natus maiores velit repellendus eum, quae commodi doloribus nulla ea error qui reprehenderit iusto incidunt enim corporis! Tempora, delectus nesciunt!</div>
+              <div className='pub_text'>Promover a sustentabilidade é honrar o equilíbrio entre homem e natureza, construindo um legado para as gerações futuras. Cada pequena ação conta para um mundo mais harmonioso e resiliente.</div>
             </div>
 
           </div>
@@ -46,7 +46,7 @@ function Home() {
               <div className="pub_image_area">
                 <img src={socialPolitics} alt="" />
               </div>
-              <div className='pub_text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos autem, natus maiores velit repellendus eum, quae commodi doloribus nulla ea error qui reprehenderit iusto incidunt enim corporis! Tempora, delectus nesciunt!</div>
+              <div className='pub_text'>Políticas sociais eficazes são alicerces da justiça e igualdade, garantindo oportunidades e dignidade a todos os cidadãos. Investir nelas é pavimentar um caminho para uma sociedade mais inclusiva e próspera.</div>
             </div>
 
           </div>

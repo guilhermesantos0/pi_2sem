@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
 
+.LocalizacaoContent .info_area{
+    text-align: center;
+}
+
 .LocalizacaoContent .font-chegar{
     font-family: 'Gabarito', cursive;
     color: white;
@@ -23,11 +27,40 @@
 .LocalizacaoContent .maps{
     padding: 75px;
     background-image: url("../../images/localizacao/usina-back.jpg");
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.LocalizacaoContent .maps iframe{
+    width: 70vw;
+    height: 60vh;
+    border-radius: 10px;
+}
+
 .LocalizacaoContent .rotas{
     padding: 70px;
     margin-left: 205px;
 }
 .LocalizacaoContent .title-rotas{
     font-size: large;
+}
+
+@media screen and (max-width: 767px) {
+    .LocalizacaoContent .maps iframe{
+        width: 90vw;
+    }
+
+    .LocalizacaoContent .rotas{
+        margin: 0;
+    }
+
+    .bus{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 30vh;
+    }
 }

@@ -54,9 +54,14 @@
     display: none;
 }
 
-li, span, .icon{
+.Navbar li, .Navbar span, .Navbar .icon{
     color: black;
     cursor: pointer;
+}
+
+.Navbar .icon{
+    width: 2rem !important;
+    height: 2rem !important;
 }
 
 @media screen and (min-width: 768px){
@@ -106,6 +111,10 @@ li, span, .icon{
 
 @media screen and (max-width: 767px){
     
+    body:has(.Navbar.open){
+        overflow: hidden;
+    }
+
     .Navbar.open{
         height: 100vh;
 

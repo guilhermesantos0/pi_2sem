@@ -39,3 +39,8 @@
     font-size: small;
     margin-left: 2vw;
 }
+
+.Footer img{
+    width: 1rem;
+    height: 1rem;
+}

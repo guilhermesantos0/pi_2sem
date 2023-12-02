@@ -22,9 +22,9 @@ function Contato () {
 
                             <div className="box">
                                 <div className="colunas" style={{textAlign: "center"}}>
-                                    <div className="col"><p>Contato:<br/><br/>Whatsapp:91234-5678<br/>E-mail:usina@gmail.com</p></div>
-                                    <div className="col"><p>Redes Sociais:<br/><br/>Instagram:usinaecocultural<br/>Facebook:Usina EcoCultural</p></div>
-                                    <div className="col"><p>Apoie:<br/><br/>Whatsapp:91234-5678<br/>E-mail:usina@gmail.com</p></div>
+                                    <div className="col"><p><strong>Contato</strong><br/><br/>Whatsapp:91234-5678<br/>E-mail:usina@gmail.com</p></div>
+                                    <div className="col"><p><strong>Redes Sociais</strong><br/><br/>Instagram:usinaecocultural<br/>Facebook:Usina EcoCultural</p></div>
+                                    <div className="col"><p><strong>Apoie</strong><br/><br/>Whatsapp:91234-5678<br/>E-mail:usina@gmail.com</p></div>
                                 </div>
                             </div>
                         </div>

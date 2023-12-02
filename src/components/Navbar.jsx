@@ -1,26 +1,33 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "../styles/components/Navbar.css";
 
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 
+import menu from "../images/navbar/menu.svg";
 import logo from "../images/logo_black.png";
 
 function Navbar(props){
 
     let menuOpen = false
+    let scrollPosition;
     
     const toggleMenu = () => {
         const navbar = document.querySelector(".Navbar")
         const menu = document.querySelector(".menu")
         
+        
         if(!menuOpen){
             navbar.classList.add("open")
             menu.classList.add("open")
+
+            scrollPosition = window.scrollY
+
+            window.scrollTo(0, 0);
             menuOpen = true
         }else{
             navbar.classList.remove("open")
             menu.classList.remove('open')
+
+            window.scrollTo(0, scrollPosition)
             menuOpen = false
         }
     }
@@ -47,7 +54,7 @@ function Navbar(props){
                 </div>
             </ul>
             <button onClick={toggleMenu} className="open_menu">
-                <FontAwesomeIcon className='icon' icon={faBars} />
+                <img className='icon' src={menu} />
                 <span className="selected_tab">{props.tab}</span>
             </button>
         </div>

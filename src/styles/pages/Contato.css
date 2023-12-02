@@ -16,7 +16,10 @@
     text-align: center;
 }
 .ContatoContent .image{
-    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
     font-size: 1rem;
     margin-top: 2vh;
 
@@ -28,7 +31,6 @@
 }
 
 .ContatoContent .image p{
-    position: absolute;
     bottom: 2vh;
     width: 100%;
     text-align: center;
@@ -36,6 +38,7 @@
     font-size: 2rem;
 
     color: aliceblue;
+
 }
 
 .ContatoContent .imagedesc{
@@ -61,24 +64,38 @@
     border-radius: 15px;
     margin: 0 40px;
     font-size: 25px;
+    width: 20vw;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .ContatoContent .colunas{
     margin-top: 2vh;
     display: flex;
     gap: 2vw;
-    justify-content: center;;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 767px){
     .ContatoContent .image{
-        background-size: contain;
+        background-size: 100%;
         width: 90vw;
-        height: 48vh;
+        height: 35vh;
 
         background-repeat: no-repeat;
     }
 
-    .ContatoContent .colunas{
-        flex-direction: column;
+    .ContatoContent .col{
+        width: 90vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .ContatoContent .col{
+        width: 60vw;
     }
 }

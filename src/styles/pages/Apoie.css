@@ -30,3 +30,13 @@ Footer{
     position: absolute;
     bottom: 0;
 }
+
+@media screen and (max-height: 770px) {
+    .ApoieContent .p1 {
+        font-size: 1.8rem;
+    }
+
+    .ApoieContent .p2{
+        font-size: 1.5rem;
+    }
+}

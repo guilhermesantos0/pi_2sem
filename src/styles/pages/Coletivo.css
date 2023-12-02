@@ -52,3 +52,9 @@
 .ColetivoContent h3{
     padding: 10px;
 }
+
+@media screen and (max-width: 480px){
+    .ColetivoContent .texto_informativo p{
+        font-size: .8rem;
+    }
+}

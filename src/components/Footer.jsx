@@ -3,6 +3,10 @@ import "../styles/components/Footer.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebookF, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
+import instagram from "../images/footer/instagram.svg";
+import facebook from "../images/footer/facebook.svg";
+import youtube from "../images/footer/youtube.svg";
+
 function Footer(){
     return(
         <div className="Footer">
@@ -10,9 +14,9 @@ function Footer(){
                 <div className="contact">
                     <h2>Contato</h2>
                     <ul className="contact_infos">
-                        <li><a href="https://www.instagram.com/usinaecocultural/" target="_blank"><FontAwesomeIcon icon={faInstagram} /> <span>usinaecocultural</span></a></li>
-                        <li><a href="https://www.facebook.com/usinaecocultural/" target="_blank"><FontAwesomeIcon icon={faFacebookF} /> <span>Usina EcoCultural</span></a></li>
-                        <li><a href="https://www.youtube.com/@usinaecocultural" target="_blank"><FontAwesomeIcon icon={faYoutube} /> <span>Usina Eco-Cultural</span></a></li>
+                        <li><a href="https://www.instagram.com/usinaecocultural/" target="_blank"><img src={instagram} /> <span>usinaecocultural</span></a></li>
+                        <li><a href="https://www.facebook.com/usinaecocultural/" target="_blank"><img src={facebook} /> <span>Usina EcoCultural</span></a></li>
+                        <li><a href="https://www.youtube.com/@usinaecocultural" target="_blank"><img src={youtube} /> <span>Usina Eco-Cultural</span></a></li>
                     </ul>
                 </div>
                 <div className="_infos">
