@@ -12,6 +12,7 @@
 .LojaContent li{
     margin-top: 18px;
 }
+
 .LojaContent .produtos{
     display: flex;
     align-items: center;

@@ -23,7 +23,7 @@ function Contato () {
                             <div className="box">
                                 <div className="colunas" style={{textAlign: "center"}}>
                                     <div className="col"><p><strong>Contato</strong><br/><br/>Whatsapp:91234-5678<br/>E-mail:usina@gmail.com</p></div>
-                                    <div className="col"><p><strong>Redes Sociais</strong><br/><br/>Instagram:usinaecocultural<br/>Facebook:Usina EcoCultural</p></div>
+                                    <div className="col"><p><strong>Redes Sociais</strong><br/><br/>Instagram: <a href="https://www.instagram.com/usinaecocultural/">@usinaecocultural</a><br/>Facebook: <a href="https://www.facebook.com/usinaecocultural/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0">Usina EcoCultural</a></p></div>
                                     <div className="col"><p><strong>Apoie</strong><br/><br/>Whatsapp:91234-5678<br/>E-mail:usina@gmail.com</p></div>
                                 </div>
                             </div>

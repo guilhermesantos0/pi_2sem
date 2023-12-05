@@ -5,10 +5,10 @@
 
 .Home .banner{
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
 
     background: url("../../images/home/banner.png");
-    background-size: 100vw 40vh;
+    background-size: 100vw 50vh;
 
     position: relative;
 }
@@ -127,6 +127,26 @@
     text-align: right;
 }
 
+.Home .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Home .description div{
+    width: 80vw;
+    text-align: center;
+}
+
+.Home .description div:nth-child(2){
+    margin-top: 4vh;
+}
+
+.Home .description a {
+    color: var(--theme-color4);
+    text-decoration: none;
+}
+
 @media screen and (max-width: 767px) {
     .Home .banner{
         display: flex;
@@ -140,7 +160,7 @@
 
     .Home .petition_text{
         width: 100%;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .Home .petition{
@@ -169,5 +189,9 @@
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .Home .pub_text{
         font-size: .8rem;
+    }
+ 
+    .Home .petition{
+        width: 25vw;
     }
 }

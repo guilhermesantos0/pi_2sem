@@ -51,6 +51,17 @@ function Home() {
 
           </div>
         </div>
+
+        <div className="description">
+          <div className="origem">
+            <h2>Origem</h2>
+            <p>O Incinerador Vergueiro foi um dos três incineradores paulistanos, localizado no Ipiranga, zona sul de São Paulo, na Rua Breno Ferraz do Amaral, altura 390, sendo mais comumente considerado na avenida Dr. Ricardo Jafet, devido a localização de sua chaminé. Exatamente ao lado da Estação Santos-Imigrantes, da Linha-2 Verde do metrô, inicialmente sendo destinado ao lixo doméstico, mas que também se tornou incinerador de lixo hospitalar. Iniciou suas atividades no ano de 1968, recebendo lixo hospitalar a partir de 1977.</p>
+          </div>
+          <div className="proposta">
+            <h2>Proposta</h2>
+            <p>A proposta para o antigo Incinerador Vergueiro é transforma-lo em algo atrativo para a comunidade da cidade de São Paulo e aos bairros ao redor do incinerador. Precisamos da sua ajuda para transformar esta proposta em realidade! <a target='_blank' href="https://secure.avaaz.org/community_petitions/po/prefeitura_municipal_de_sao_paulo_eu_apoio_incinerador_vergueiro_devera_ser_um_espaco_de_conscientizacao_ambiental_e_vida/">Assine aqui</a> para nos ajudar!</p>
+          </div>
+        </div>
       <Footer />
     </div>
   );
