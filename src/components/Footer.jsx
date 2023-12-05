@@ -1,7 +1,5 @@
 import "../styles/components/Footer.css"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faFacebookF, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 import instagram from "../images/footer/instagram.svg";
 import facebook from "../images/footer/facebook.svg";
