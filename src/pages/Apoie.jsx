@@ -15,20 +15,16 @@ function Apoie () {
                 <div className="ApoieContent">
                     <Header color="var(--theme-color3)">APOIE</Header>
 
-                    <div className="page_content">
-                        <br/>
-
-                        <p className="p1">Apoie o projeto da Usina Eco Cultural e contribua para a propagação da cultura.</p>
-
-                        <br/>
-
-                        <div className="img">  
-                            <img src={image} width="50%"/>
+                    <div class="conteudo">
+                        <p style={{ fontSize: "36px", textAlign: "center" }}>Para apoiar o projeto da Usina Eco Cultural e contribuir com a propagação da cultura é muito fácil.</p>
+                    
+                        <p style={{ fontSize: "27px", textAlign: "center" }}>Basta assinar nosso <a target="_blank" class="but-a" href="https://secure.avaaz.org/community_petitions/po/prefeitura_municipal_de_sao_paulo_eu_apoio_incinerador_vergueiro_devera_ser_um_espaco_de_conscientizacao_ambiental_e_vida/">abaixo assinado online</a> ou acessar nosso <Link to="/" class="but-a">site</Link> para ajudar a alavancar cada vez mais nosso projeto.</p>
+                    
+                        <div class="img">  
+                            <img src={image} width="50%" />
                         </div>
-
-                        <br/>
-
-                        <p className="p2">Toda e qualquer tipo de doação será muito bem-vinda, para mais informações, entre em contato através da aba <Link to="/contato">Fale Conosco</Link>.</p>
+                    
+                        <p style={{ fontSize: "27px", textAlign: "center" }}>Qualquer dúvida que existir, entre em contato conosco através da aba <Link to="/contato" class="but">Fale Conosco</Link></p>
                     </div>
 
                 </div>

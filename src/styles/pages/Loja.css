@@ -26,13 +26,16 @@
     font-size: 20px;
     padding: 1vh;
     border-right: 1px black solid;
+
+    width: 45vw;
 }
 .LojaContent .prod{
-    margin: 9vh;
+    margin: 3vh;
     border: 1px solid rgb(177, 175, 175);
     border-radius: 1vh;
     transition: box-shadow 0.4s;
     text-align: center;
+    width: 20vw;
 }
 .LojaContent .prod:hover {
     box-shadow: 1vh 1vh 1vh rgba(0, 0, 0, 0.2);

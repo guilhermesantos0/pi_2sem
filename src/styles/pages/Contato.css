@@ -72,6 +72,11 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+.ContatoContent .col p{
+    font-size: 1rem;
+}
+
 .ContatoContent .colunas{
     margin-top: 2vh;
     display: flex;
