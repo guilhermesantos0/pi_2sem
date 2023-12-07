@@ -34,7 +34,7 @@ function Coletivo() {
                     <h2 class="sub_titulos">Descontaminação do espaço</h2>
                     <div class="conteudo">
                         <div class="imagem">
-                            <img src={images[2]} alt="" class="imagem-1"/>
+                            <img src={images[1]} alt="" class="imagem-1"/>
                         </div>
                         <div class="conteudo_texto">
                             <p>
@@ -48,7 +48,7 @@ function Coletivo() {
                     <h2 class="sub_titulos">Polo Cultural do Ipiranga</h2>
                     <div class="conteudo">
                         <div class="imagem">
-                            <img src={images[3]} alt="" class="imagem-1"/>
+                            <img src={images[2]} alt="" class="imagem-1"/>
                         </div>
                         <div class="conteudo_texto">
                             <p>
@@ -59,7 +59,7 @@ function Coletivo() {
                     <h2 class="sub_titulos">Melhorias na região</h2>
                     <div class="conteudo">
                         <div class="imagem">
-                            <img src={images[4]} alt="" class="imagem-1"/>
+                            <img src={images[3]} alt="" class="imagem-1"/>
                         </div>
                         <div class="conteudo_texto">
                             <p>
@@ -72,7 +72,7 @@ function Coletivo() {
                     <h2 class="sub_titulos">Museu do Meio Ambiente</h2>
                     <div class="conteudo">
                         <div class="imagem">
-                            <img src={images[5]} alt="" class="imagem-1"/>
+                            <img src={images[4]} alt="" class="imagem-1"/>
                         </div>
                         <div class="conteudo_texto">
                             <p>
@@ -87,7 +87,7 @@ function Coletivo() {
                     <h2 class="sub_titulos">Programa Ruas Abertas </h2>
                     <div class="conteudo">
                         <div class="imagem">
-                            <img src={images[6]} alt="" class="imagem-1"/>
+                            <img src={images[5]} alt="" class="imagem-1"/>
                         </div>
                         <div class="conteudo_texto">
                             <p>
