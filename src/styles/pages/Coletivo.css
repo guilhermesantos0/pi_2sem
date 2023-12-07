@@ -1,60 +1,48 @@
+.ColetivoContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .ColetivoContent .conteudo{
-    width: 90%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-}
-.ColetivoContent .conteudo:nth-child(1){
-    margin-top: 30px;
-}
-.ColetivoContent img{
-    width: 170px;
-    height: 150px;
-}
-.ColetivoContent .info{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 0 10px black;
-    border-radius: 20px;
-    overflow: hidden;
-}
-.ColetivoContent .info1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    box-shadow: 0 0 10px black;
-    border-radius: 20px;
-    overflow: hidden;
-}
-.ColetivoContent .info_tam{
-    height: 150px;
-}
-.ColetivoContent .texto_informativo{
-    display: flex;
-    flex-direction: column;
-}
-.ColetivoContent .texto_informativo h3{
-    padding-bottom: 10px;
-}
-.ColetivoContent .texto_informativo p{
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 40px;
+    overflow: hidden;
+    gap: 50px;
 }
-.ColetivoContent .img_a_direita{
-    border-radius: 0 20px 20px 0;
+.ColetivoContent .titulos{
+    text-align: center;
+    margin: 30px;
 }
-.ColetivoContent .img_a_esquerda{
-    border-radius: 20px 0 0 20px;
-}
-.ColetivoContent h2{
-    padding: 0 30px 30px;
-}
-.ColetivoContent h3{
-    padding: 10px;
-}
+.ColetivoContent .principal{
+    display: flex;
 
-@media screen and (max-width: 480px){
-    .ColetivoContent .texto_informativo p{
-        font-size: .8rem;
-    }
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+.ColetivoContent .imagem-1{
+    border-radius: 40px;
+    height: 200px;
+    width: 230px;
+}
+.ColetivoContent .conteudo_texto{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    min-height: 150px;
+    max-width: 1000px;
+    
+}
+.ColetivoContent .sub_titulos{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
