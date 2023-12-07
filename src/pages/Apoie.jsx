@@ -25,6 +25,13 @@ function Apoie () {
                         </div>
                     
                         <p style={{ fontSize: "27px", textAlign: "center" }}>Qualquer dúvida que existir, entre em contato conosco através da aba <Link to="/contato" class="but">Fale Conosco</Link></p>
+
+                        <div className="porque">
+                            <h2>Porque apoiar?</h2>
+                            <p>O antigo Incinerador Vergueiro é um prédio abandonado desde 2002. Um grupo de pessoas do bairro e outras ligadas ao Conselho de Meio Ambiente, Desenvolvimento Sustentável e Cultura de Paz - CADES da Subprefeitura Ipiranga iniciou, em 2019, o movimento Usina Verde para fomentar que este imóvel cumpra sua função social, seja reabilitado e destinado para implantação de um espaço dedicado à localização dos Objetivos de Desenvolvimento Sustentável.</p>
+                            <p>Em 2022, teve início uma movimentação conjunta com a sociedade civil organizada, que então desenvolveu o conceito Usina Eco-Cultural para a criação de um espaço que ofereça ao Ipiranga e à cidade de São Paulo oportunidades de cultura, educação ambiental, lazer, bem-estar, inclusão social, economia circular, dentre outros temas, no intuito de tornar-se um centro cultural e ambiental, em preservação de sua memória e significado em relação a cidade.</p>
+                            <p>Este grupo já realizou algumas atividades no local (para saber mais acesse: <a target="_blank" href="https://linktr.ee/usinaecocultural">https://linktr.ee/usinaecocultural</a> e precisa do seu apoio para que continue atuando e ganhe força para conseguir que este local seja reabilitado e adequado ao uso proposto, trazendo inúmeros benefícios para a população.</p>
+                        </div>
                     </div>
 
                 </div>

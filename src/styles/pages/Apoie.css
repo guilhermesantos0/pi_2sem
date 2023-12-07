@@ -34,3 +34,12 @@
     transition-duration: 0.3s;
     color:#294805;
 }
+
+.ApoieContent h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.ApoieContent .porque p{
+    text-align: center;
+}
