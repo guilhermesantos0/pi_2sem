@@ -2,20 +2,11 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
-import cades from "../images/apoiadores/cades.png";
-import casadascaldeiras from "../images/apoiadores/casadascaldeiras.png";
-import missao_ambiental from "../images/apoiadores/missao_ambiental.png";
-import imt from "../images/apoiadores/imt.png";
-import cades_vm from "../images/apoiadores/cades_vm.png";
-import casa_amarela from "../images/apoiadores/casa_amarela.png";
-import museu_ipiranga from "../images/apoiadores/museu_ipiranga.png";
-import casa_o from "../images/apoiadores/casa_o.png";
-import muda_ipiranga from "../images/apoiadores/muda_ipiranga.png";
-import etec_gv from "../images/apoiadores/etec_gv.png";
-import ciclo_vida from "../images/apoiadores/ciclovida.png";
-import insutituto_chao from "../images/apoiadores/instituto_chao.png";
+import importAllImages from "../helpers/importAll";
 
 import "../styles/pages/Apoiadores.css"
+
+const images = importAllImages(require.context("../images/apoiadores", false, /\.(png|jpe?g|svg)$/))
 
 function Apoiadores () {
     return (
@@ -25,18 +16,18 @@ function Apoiadores () {
             <div className="ApoiadoresContent">
                 <h1 className="text">Aqui estão alguns de nossos apoiadores!</h1>
                 <div className="supporters">
-                    <img src={cades}/>
-                    <img src={casadascaldeiras}/>
-                    <img src={missao_ambiental}/>
-                    <img src={imt}/>
-                    <img src={cades_vm}/>
-                    <img src={casa_amarela}/>
-                    <img src={museu_ipiranga} />
-                    <img src={casa_o} />
-                    <img src={muda_ipiranga}/>
-                    <img src={etec_gv}/>
-                    <img src={ciclo_vida}/>
-                    <img src={insutituto_chao}/>
+                    <img src={images[0]}/>
+                    <img src={images[1]}/>
+                    <img src={images[2]}/>
+                    <img src={images[3]}/>
+                    <img src={images[4]}/>
+                    <img src={images[5]}/>
+                    <img src={images[6]} />
+                    <img src={images[7]} />
+                    <img src={images[8]}/>
+                    <img src={images[9]}/>
+                    <img src={images[10]}/>
+                    <img src={images[11]}/>
                 </div>
                 {/* <div className="full_supporters">
                     <ul className="full_supporters-list">

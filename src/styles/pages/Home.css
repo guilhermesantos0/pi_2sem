@@ -147,6 +147,19 @@
     text-decoration: none;
 }
 
+.Home .gallery_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 5vh;
+}
+
+.Home .gallery{
+    width: 90vw;
+    height: 80vh;
+}
+
 @media screen and (max-width: 767px) {
     .Home .banner{
         display: flex;

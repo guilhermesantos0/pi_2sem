@@ -122,7 +122,7 @@
     }
 
     .Navbar.open{
-        height: 100lvh;
+        height: 100vh;
 
         position: absolute;
         z-index: 999999;
@@ -136,14 +136,14 @@
     .Navbar .menu.open{
         width: 100vw;
         height: 100vh;
-        margin-top: 7vh;
+        margin-top: 5vh;
 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
 
-        gap: 2vh;
+        gap: 1vh;
 
         margin-left: -5vh;
     }

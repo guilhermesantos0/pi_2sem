@@ -4,13 +4,9 @@ import Header from "../components/Header";
 
 import "../styles/pages/Coletivo.css"
 
-import usina1 from "../images/coletivo/usina1.png"
-import descont from "../images/coletivo/descont.png"
-import usina4 from "../images/coletivo/usina4.png"
-import IMG_1661 from "../images/coletivo/IMG_1661.jpg"
-import mato from "../images/coletivo/mato.png"
-import IMG_1718 from "../images/coletivo/IMG_1718.jpg"
+import importAllImages from "../helpers/importAll";
 
+const images = importAllImages(require.context("../images/coletivo", false, /\.(png|jpe?g|svg)$/))
 
 function Coletivo() {
     return(
@@ -22,7 +18,7 @@ function Coletivo() {
                     <h1 class="titulos">Como Surgiu</h1>
                     <div class="conteudo">
                         <div class="imagem">
-                            <img src={usina1} alt="" class="imagem-1"/>
+                            <img src={images[0]} alt="" class="imagem-1"/>
                         </div>
                         <div class="conteudo_texto">
                             <p>
@@ -38,7 +34,7 @@ function Coletivo() {
                     <h2 class="sub_titulos">Descontaminação do espaço</h2>
                     <div class="conteudo">
                         <div class="imagem">
-                            <img src={descont} alt="" class="imagem-1"/>
+                            <img src={images[2]} alt="" class="imagem-1"/>
                         </div>
                         <div class="conteudo_texto">
                             <p>
@@ -52,7 +48,7 @@ function Coletivo() {
                     <h2 class="sub_titulos">Polo Cultural do Ipiranga</h2>
                     <div class="conteudo">
                         <div class="imagem">
-                            <img src={usina4} alt="" class="imagem-1"/>
+                            <img src={images[3]} alt="" class="imagem-1"/>
                         </div>
                         <div class="conteudo_texto">
                             <p>
@@ -63,7 +59,7 @@ function Coletivo() {
                     <h2 class="sub_titulos">Melhorias na região</h2>
                     <div class="conteudo">
                         <div class="imagem">
-                            <img src={IMG_1661} alt="" class="imagem-1"/>
+                            <img src={images[4]} alt="" class="imagem-1"/>
                         </div>
                         <div class="conteudo_texto">
                             <p>
@@ -76,7 +72,7 @@ function Coletivo() {
                     <h2 class="sub_titulos">Museu do Meio Ambiente</h2>
                     <div class="conteudo">
                         <div class="imagem">
-                            <img src={mato} alt="" class="imagem-1"/>
+                            <img src={images[5]} alt="" class="imagem-1"/>
                         </div>
                         <div class="conteudo_texto">
                             <p>
@@ -91,7 +87,7 @@ function Coletivo() {
                     <h2 class="sub_titulos">Programa Ruas Abertas </h2>
                     <div class="conteudo">
                         <div class="imagem">
-                            <img src={IMG_1718} alt="" class="imagem-1"/>
+                            <img src={images[6]} alt="" class="imagem-1"/>
                         </div>
                         <div class="conteudo_texto">
                             <p>

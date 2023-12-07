@@ -8,11 +8,22 @@ import Footer from '../components/Footer';
 import sustentability from "../images/home/sustentability.png";
 import socialPolitics from "../images/home/social_politics.png";
 
+import Carousel from 'react-gallery-carousel';
+import 'react-gallery-carousel/dist/index.css';
+
+import importAllImages from '../helpers/importAll';
+
+const _images = importAllImages(require.context("../images/galeria/", false, /\.(png|jpe?g|svg)$/))
+
 function Home() {
 
   React.useEffect(() => {
     document.title = "Usina Eco Cultural";
   }, [])
+
+  const images = _images.map((i) => ({
+    src: i
+  }))
 
   return (
     <div className="Home">
@@ -61,6 +72,10 @@ function Home() {
             <h2>Proposta</h2>
             <p>A proposta para o antigo Incinerador Vergueiro é transforma-lo em algo atrativo para a comunidade da cidade de São Paulo e aos bairros ao redor do incinerador. Precisamos da sua ajuda para transformar esta proposta em realidade! <a target='_blank' href="https://secure.avaaz.org/community_petitions/po/prefeitura_municipal_de_sao_paulo_eu_apoio_incinerador_vergueiro_devera_ser_um_espaco_de_conscientizacao_ambiental_e_vida/">Assine aqui</a> para nos ajudar!</p>
           </div>
+        </div>
+
+        <div className="gallery_container">
+          <Carousel className='gallery' images={images}></Carousel>
         </div>
       <Footer />
     </div>
